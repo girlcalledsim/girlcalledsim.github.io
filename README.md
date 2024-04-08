@@ -1,1 +1,0 @@
-# girlcalledsim.github.io
