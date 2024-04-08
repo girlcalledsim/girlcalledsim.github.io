@@ -1,0 +1,109 @@
+body{
+
+background: linear-gradient(rgb(244, 162, 255),rgb(244, 255, 213));
+background-repeat: no-repeat;
+background-attachment: fixed;
+
+}
+
+h1{
+font-family: "Calibri", "Trebuchet MS", "sans-serif"; "Gill Sans", "Gill Sans MT";
+font-style: italic;
+margin-left: 50px;
+}
+p{
+    font-family: "Calibri", "Trebuchet MS", "sans-serif"; "Gill Sans", "Gill Sans MT";
+    margin-left: 50px;
+
+animation: slideanimation;
+animation-duration: 8s;
+animation-timing-function: linear
+}
+
+@keyframes slideanimation{
+    from{margin-left: 70%}
+    to{margin left: 5%}
+    
+}
+
+div1{
+    margin-left: 50px;
+}
+
+h2{
+
+    font-family: "Calibri", "Trebuchet MS", "sans-serif"; "Gill Sans", "Gill Sans MT";
+    margin-left: 635px;
+}
+
+   
+  h3 { 
+    margin-left: 100px; 
+    padding: 10px; 
+    font-size: 24px; 
+    font-family: "Calibri", "Trebuchet MS", "sans-serif"; "Gill Sans", "Gill Sans MT";
+    
+  } 
+
+
+p2{
+    margin-left: 330px;
+}
+
+
+
+#box1fast{
+    border-right: 2px solid transparent;
+    border-image: linear-gradient(to bottom, rgb(244, 162, 255), rgb(244, 255, 213));
+    border-image-slice: 1;
+    width: 460px;
+    display: inline-block;
+    margin-left: 290px;
+    position:absolute
+}
+
+
+
+#box2slow{
+    
+    border: solid transparent;
+    width: 480px;
+    margin-left: 840px;
+    margin-top: 3px;
+    
+}
+
+
+p1{
+
+    margin-left: 200px;
+
+}
+
+div{
+
+    margin-left: 200px;
+    margin-top: 5px;
+}
+
+#box3nostalgiamixes{
+    border: solid transparent;
+    width: 600px;
+    margin-top: 3px;
+    display: inline-block;
+    margin-left: 100px;
+    position:absolute
+
+
+}
+
+
+#box4nostalgiamixes{
+    border: solid transparent;
+    width: 600px;
+    margin-left: 660px;
+    margin-top: 3px;
+
+
+
+}
