@@ -27,6 +27,9 @@ body{
         
     }
     
+    .wrapper-main {
+        width: 100%
+    }
 
     #div1{
         margin-left: 5%;
@@ -36,8 +39,7 @@ body{
     h2{
     
         font-family: "Calibri", "Trebuchet MS", "sans-serif"; "Gill Sans", "Gill Sans MT";
-        margin-left: 42%;
-        font-size: 150%
+        margin-left: 40%;
     }
     
        
@@ -118,9 +120,11 @@ body{
     
     }
 
-
-
-    /* Extra small devices (phones, 600px and down) */
+/* Extra small devices (phones, 320px and down) */
+@media only screen and (max-width: 320px) {...}
+/* Extra small devices (phones, 480px and down) */
+@media only screen and (max-width: 480px) {...}
+/* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {...}
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {...}
@@ -128,5 +132,7 @@ body{
 @media only screen and (min-width: 768px) {...}
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {...}
+/* Large devices (laptops/desktops, 1024px and up) */
+@media only screen and (max-width: 1024px) {...}
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {...}
